@@ -1,11 +1,9 @@
-# OmniGet Android v0.6.0 UI/UX development preview
+# OmniGet Android v0.7.0 — Apple-inspired visual preview
 
-- Dark/orange UI with bundled DM Sans and floating selected-state navigation.
-- A focused link composer: explicit Paste/Clear, keyboard Go, draft persistence and loading/validation feedback.
-- Contextual media progress/result/error card replaces always-visible technical engine buttons. Open/share, cancel confirmation, retry and error-copy actions appear with the relevant state.
-- Direct-transfer filters, empty states, compact file cards and overflow actions.
-- Card-based Settings and planned Pro offer. Back returns to Downloads from other tabs. Google AdMob test banner remains separate from navigation and content.
+Light grouped background, white rounded cards, large titles, system sans-serif type, accessible blue primary actions, segmented history filters and a translucent white floating bottom tab bar with original line icons. Light native dialogs and readable system bars complement the new palette. OmniGet identity and existing download behavior remain intact.
 
-Validation: ARM64 APK build/signature, Android Lint with zero errors (26 warnings), bundled engine checksum and font assets verified. No successful device UI/ads test or screenshot is claimed: the software emulator did not expose reliable Android package/activity services. Existing source routing remains in place; live YouTube/other-source availability is not guaranteed. Pro purchase/features remain planned and unavailable.
+No Apple fonts, SF Symbols or Apple artwork are included. No actual backdrop blur is claimed. The light palette is fixed in this development build.
 
-Android 10+ ARM64, debug-signed development build. Corresponding source/build instructions, GPL-3.0 license, DM Sans OFL notice and dependency notes are included.
+Validation: ARM64 build/signature and Android Lint with zero errors; pinned engine payload verified. Physical-device UI rendering and live ad delivery remain unverified. This update does not claim to resolve every source's authentication/anti-bot restrictions. Pro remains a proposal and AdMob uses test IDs.
+
+Android 10+ ARM64 debug-signed development build. Corresponding Android source/build instructions and GPL-3.0 license are included, with third-party components retaining their own licenses.
