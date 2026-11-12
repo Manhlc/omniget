@@ -1,9 +1,11 @@
-# OmniGet Android v0.7.0 — Apple-inspired visual preview
+# OmniGet Android v0.8.0 development preview
 
-Light grouped background, white rounded cards, large titles, system sans-serif type, accessible blue primary actions, segmented history filters and a translucent white floating bottom tab bar with original line icons. Light native dialogs and readable system bars complement the new palette. OmniGet identity and existing download behavior remain intact.
+Downloads / History / Settings navigation, glass-effect backdrop/cards and a new original blue download logo. The normal download composer is retained. Locked Pro utilities live on Downloads and open an upgrade proposal sheet. Pro checkout and utility execution are not available or on sale.
 
-No Apple fonts, SF Symbols or Apple artwork are included. No actual backdrop blur is claimed. The light palette is fixed in this development build.
+New SQLite media history preserves new jobs and exact yt-dlp byte/speed/ETA fields when provided; existing direct-file history remains available with sampled speed/ETA. Only the prior last media entry can be recovered from older preferences. Multi-stream progress can reset between tracks; unknown measurements are not fabricated.
 
-Validation: ARM64 build/signature and Android Lint with zero errors; pinned engine payload verified. Physical-device UI rendering and live ad delivery remain unverified. This update does not claim to resolve every source's authentication/anti-bot restrictions. Pro remains a proposal and AdMob uses test IDs.
+A dedicated AdMob banner slot sits above the navigation. A ready test interstitial may display on a Free download click after a 5-minute interval; first request skips it. UMP consent gates ads; unavailable/failed ads do not block download. Official Google test IDs only, no live revenue or paid entitlement.
 
-Android 10+ ARM64 debug-signed development build. Corresponding Android source/build instructions and GPL-3.0 license are included, with third-party components retaining their own licenses.
+Validation: ARM64 APK build/signature, Android Lint with zero errors, 52 host checks, local verified-TLS classification and actual yt-dlp transfer using the service's exact progress flags. Native UI, SQLite lifecycle and live banner/interstitial/consent behavior still need real-device testing. No claim of universal live-source support or real iOS Liquid Glass/blur.
+
+Android 10+ ARM64, debug-signed development build. Corresponding Android source/build instructions and GPL-3.0 license are included; dependencies retain their own licenses.
