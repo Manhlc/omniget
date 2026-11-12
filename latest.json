@@ -1,0 +1,9 @@
+{
+  "versionCode": 10,
+  "versionName": "0.9.0",
+  "apkUrl": "https://raw.githubusercontent.com/Manhlc/omniget/refs/heads/android-updates/OmniGet-v0.9.0-arm64.apk",
+  "sha256": "57ca3b1aac14bb86a2daa0513fec4c52a2515a0b23df6666cb1bc95297a70298",
+  "size": 74971533,
+  "signerSha256": "7e8e4c3dc09e075af4ea75db7875e4d9a076a32d92d09c8845b2600cb4ebb7ac",
+  "notes": "Bố cục gọn hơn, lịch sử dễ đọc và cập nhật APK ngay trong ứng dụng. Android sẽ yêu cầu xác nhận cài đặt."
+}
