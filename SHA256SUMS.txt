@@ -1,0 +1,2 @@
+dcc05692bf16a623fdb8ca673e85e2a67418af9b835eba0c542b63deec50effd  OmniGet-v0.5.0-android-source.zip
+a9b202cda3b200630cf3983b697b89b26132922f60eaeb9615dd91d12a00220d  OmniGet-v0.5.0-arm64.apk
