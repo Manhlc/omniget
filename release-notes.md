@@ -1,9 +1,11 @@
-# OmniGet Android v0.5.1 development fix
+# OmniGet Android v0.6.0 UI/UX development preview
 
-The main Download action now routes social media URLs and HLS/DASH to yt-dlp. Generic HTML pages, including pages mislabeled as binary files, also route to the engine instead of being offered as direct downloads. Engine HTML output is rejected before publishing to Downloads. Retry uses the corrected routing. Redacted engine errors are shown as selectable text.
+- Dark/orange UI with bundled DM Sans and floating selected-state navigation.
+- A focused link composer: explicit Paste/Clear, keyboard Go, draft persistence and loading/validation feedback.
+- Contextual media progress/result/error card replaces always-visible technical engine buttons. Open/share, cancel confirmation, retry and error-copy actions appear with the relevant state.
+- Direct-transfer filters, empty states, compact file cards and overflow actions.
+- Card-based Settings and planned Pro offer. Back returns to Downloads from other tabs. Google AdMob test banner remains separate from navigation and content.
 
-The original yt-dlp release already contains EJS 0.8.0; both solver hashes were verified against upstream expectations. No replacement solver or runtime download is used.
+Validation: ARM64 APK build/signature, Android Lint with zero errors (26 warnings), bundled engine checksum and font assets verified. No successful device UI/ads test or screenshot is claimed: the software emulator did not expose reliable Android package/activity services. Existing source routing remains in place; live YouTube/other-source availability is not guaranteed. Pro purchase/features remain planned and unavailable.
 
-Validation: ARM64 APK build/signature, Android Lint, 41 policy/parser/routing checks, HTTPS HTML/mislabeled-HTML/MP4 classification, and a host-only actual engine download matching the source bytes. Live YouTube testing is blocked by Cloud egress policy; on-device YouTube/social extraction has not been verified. Login/anti-bot challenges and DRM are not bypassed. Google AdMob still uses test IDs. Debug-signed Android 10+ ARM64 development build.
-
-Corresponding Android source and build instructions are included under GPL-3.0 with third-party components retaining their licenses.
+Android 10+ ARM64, debug-signed development build. Corresponding source/build instructions, GPL-3.0 license, DM Sans OFL notice and dependency notes are included.
