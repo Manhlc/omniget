@@ -1,9 +1,9 @@
-# OmniGet Android v0.9.0 development preview
+# OmniGet Android v0.10.0 — English language support
 
-Compact composer with inline Paste; equal-width history filters; compact media/direct-file rows and overflow actions instead of three large buttons; readable titles with separately stored actual filenames; opaque compact Pro proposal sheet. The reserved ad/navigation footer is shorter and remains separate from download controls.
+Settings → Language: System default / Tiếng Việt / English. Vietnamese devices default to Vietnamese; other system languages fall back to English. A full English resource catalog covers owned UI, navigation accessibility labels, download history, Pro details, ads/privacy actions, updater and app-generated service messages. App-selected locale formats sizes; counts use plurals. Locale preference persists, the current tab is restored on recreation and active media downloads are not restarted.
 
-Settings → Check for updates uses a fixed public GitHub channel. APK download checks bounded size, SHA-256, package, strictly newer version, OS compatibility and the installed app signing certificate. A scoped FileProvider opens the Android system installer after user consent/unknown-source permission. No silent install; this is not Play Store In-App Updates. Install this bootstrap version manually once to enable future in-app checks.
+Keeps icon-only navigation, existing downloader/runtime binaries, source handling and GPL licensing. User filenames/source content and external backend/SDK/system messages are not machine-translated. Pro remains unavailable for purchase and ads use Google test IDs.
 
-Validation: ARM64 build/signature, Android Lint with zero errors, 65 host checks and local HTTPS engine regression tests. Actual SQLite migration SQL preserves old title/URI rows. Device UI and native installer/permission flow remain unverified. Pro is not on sale and ads still use Google test IDs; source login/anti-bot restrictions remain.
+Validation: ARM64 build/signature, Android Lint with zero errors, 179 bilingual catalog entries checked for parity/coverage, 72 host checks plus engine regression. Physical-device language switching/English layout and native update/SDK behavior remain unverified.
 
-Android 10+ ARM64 debug-signed development build. Android source/build instructions, GPL-3.0 license and third-party notices are included. Preserve the existing signing key for subsequent updates; UPDATES.md documents the channel publication procedure.
+Update from Settings → Check for updates. Android 10+ ARM64 debug-signed development build. Corresponding Android source/build instructions and GPL-3.0 license are included; third-party components retain their own licenses.
